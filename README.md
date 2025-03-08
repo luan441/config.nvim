@@ -36,6 +36,7 @@ External Requirements:
   - etc.
 - Typescipt Setup
   - run `npm i -g typescript typescript-language-server`
+- [Laravel Setup](https://medium.com/@jogarcia/laravel-blade-on-neovim-ee530ff5d20d)
 
 > **NOTE**
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes

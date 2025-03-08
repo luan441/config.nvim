@@ -237,6 +237,8 @@ return {
           },
         },
         eslint = {},
+        phpactor = {},
+        twiggy_language_server = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -259,6 +261,9 @@ return {
         'prettier',
         'prettierd',
         'eslint_d',
+        'phpstan',
+        'php-cs-fixer',
+        'twig-cs-fixer',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
