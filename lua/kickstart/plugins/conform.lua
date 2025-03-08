@@ -44,6 +44,8 @@ return {
         php = { 'php-cs-fixer' },
         twig = { 'twig-cs-fixer' },
         blade = { 'blade-formatter' },
+        json = { 'prettierd', 'prettier' },
+        yaml = { 'prettierd', 'prettier' },
       },
     },
   },

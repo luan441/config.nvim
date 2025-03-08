@@ -264,6 +264,8 @@ return {
         'phpstan',
         'php-cs-fixer',
         'twig-cs-fixer',
+        'jsonlint',
+        'yamllint',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
