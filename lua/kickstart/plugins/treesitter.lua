@@ -39,6 +39,7 @@ return {
         'blade',
         'cpp',
         'rust',
+        'python',
       }
       opts.highlight = {
         enable = true,
