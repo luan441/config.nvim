@@ -24,6 +24,7 @@ return {
         'phpdoc',
         'twig',
         'json',
+        'dart',
       },
       highlight = {
         enable = true,
