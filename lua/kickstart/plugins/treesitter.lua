@@ -4,8 +4,19 @@ return {
     build = ':TSUpdate',
     main = 'nvim-treesitter.configs', -- Sets main module to use for opts
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
-    opts = {
-      ensure_installed = {
+    opts = function(_, opts)
+      local parser_config = require('nvim-treesitter.parsers').get_parser_configs()
+
+      parser_config.blade = {
+        install_info = {
+          url = 'https://github.com/EmranMR/tree-sitter-blade',
+          files = { 'src/parser.c' },
+          branch = 'main',
+        },
+        filetype = 'blade',
+      }
+
+      opts.ensure_installed = {
         'bash',
         'c',
         'diff',
@@ -25,13 +36,13 @@ return {
         'twig',
         'json',
         'dart',
-      },
-      highlight = {
+        'blade',
+      }
+      opts.highlight = {
         enable = true,
-        additional_vim_regex_highlighting = { 'ruby' },
-      },
-      indent = { enable = true, disable = { 'ruby' } },
-    },
+      }
+      opts.indent = { enable = true }
+    end,
   },
 }
 -- vim: ts=2 sts=2 sw=2 et
