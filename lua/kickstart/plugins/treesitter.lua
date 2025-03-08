@@ -37,6 +37,8 @@ return {
         'json',
         'dart',
         'blade',
+        'cpp',
+        'rust',
       }
       opts.highlight = {
         enable = true,
