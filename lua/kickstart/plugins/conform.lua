@@ -46,6 +46,7 @@ return {
         blade = { 'blade-formatter' },
         json = { 'prettierd', 'prettier' },
         yaml = { 'prettierd', 'prettier' },
+        cpp = { 'clang-format' },
       },
     },
   },
