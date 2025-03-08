@@ -14,6 +14,7 @@ return {
         php = { 'phpstan' },
         json = { 'jsonlint' },
         yaml = { 'yamllint' },
+        cpp = { 'ccplint' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,

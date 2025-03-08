@@ -240,6 +240,8 @@ return {
         twiggy_language_server = {},
         dockerls = {},
         docker_compose_language_service = {},
+        rust_analyzer = {},
+        cland = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -267,6 +269,8 @@ return {
         'twig-cs-fixer',
         'jsonlint',
         'yamllint',
+        'cpplint',
+        'clang-format',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
