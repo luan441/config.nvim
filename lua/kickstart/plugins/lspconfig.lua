@@ -243,6 +243,7 @@ return {
         docker_compose_language_service = {},
         rust_analyzer = {},
         clangd = {},
+        ruff = {},
       }
 
       -- Ensure the servers and tools above are installed

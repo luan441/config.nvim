@@ -47,6 +47,7 @@ return {
         json = { 'prettierd', 'prettier' },
         yaml = { 'prettierd', 'prettier' },
         cpp = { 'clang-format' },
+        python = { 'ruff' },
       },
     },
   },
