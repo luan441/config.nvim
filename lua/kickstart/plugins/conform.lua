@@ -48,6 +48,7 @@ return {
         yaml = { 'prettierd', 'prettier' },
         cpp = { 'clang-format' },
         python = { 'ruff' },
+        sql = { 'sqlfmt' },
       },
     },
   },

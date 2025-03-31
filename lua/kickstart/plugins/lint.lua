@@ -16,6 +16,7 @@ return {
         yaml = { 'yamllint' },
         cpp = { 'ccplint' },
         python = { 'ruff' },
+        sql = { 'sqlfluff' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,

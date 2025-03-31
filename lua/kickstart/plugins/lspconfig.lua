@@ -244,6 +244,7 @@ return {
         rust_analyzer = {},
         clangd = {},
         ruff = {},
+        sqls = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -273,6 +274,8 @@ return {
         'yamllint',
         'cpplint',
         'clang-format',
+        'sqlfmt',
+        'sqlfluff',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
