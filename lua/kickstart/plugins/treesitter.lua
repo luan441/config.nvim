@@ -40,6 +40,7 @@ return {
         'cpp',
         'rust',
         'python',
+        'sql',
       }
       opts.highlight = {
         enable = true,
