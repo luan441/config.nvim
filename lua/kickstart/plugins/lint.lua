@@ -14,7 +14,7 @@ return {
         php = { 'phpstan' },
         json = { 'jsonlint' },
         yaml = { 'yamllint' },
-        cpp = { 'ccplint' },
+        cpp = { 'cpplint' },
         python = { 'ruff' },
         sql = { 'sqlfluff' },
       }
