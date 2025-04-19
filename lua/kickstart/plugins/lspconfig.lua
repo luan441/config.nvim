@@ -235,6 +235,7 @@ return {
             },
           },
         },
+        ts_ls = {},
         eslint = {},
         phpactor = {},
         twiggy_language_server = {},
@@ -244,6 +245,7 @@ return {
         clangd = {},
         ruff = {},
         sqls = {},
+        gopls = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -275,6 +277,9 @@ return {
         'clang-format',
         'sqlfmt',
         'sqlfluff',
+        'gofumpt',
+        'goimports',
+        'gomodifytags',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

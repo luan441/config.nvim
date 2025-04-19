@@ -47,6 +47,7 @@ return {
         cpp = { 'clang-format' },
         python = { 'ruff' },
         sql = { 'sqlfmt' },
+        go = { 'goimports', 'gofumpt', 'gomodifytags' },
       },
     },
   },
