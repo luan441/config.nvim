@@ -34,6 +34,8 @@ External Requirements:
   - If you want to write Typescript, you need `npm`
   - If you want to write Golang, you will need `go`
   - etc.
+- Typescipt Setup
+  - run `npm i -g typescript typescript-language-server`
 
 > [!NOTE]
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
